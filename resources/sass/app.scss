@@ -1,2 +1,11 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+
+$primary : orange;
+
+@import "bootstrap/scss/bootstrap";
 @import "@fortawesome/fontawesome-free/css/all.min.css";
+
+.user-photo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
